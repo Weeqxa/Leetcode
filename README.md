@@ -1,26 +1,52 @@
-# LeetCode 75 — Java
+# LeetCode — Java
 
-My solutions to the [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/) study plan, written in Java.
+Solutions to algorithmic problems from [LeetCode](https://leetcode.com/), primarily focused on the **LeetCode 75** study plan.
 
-The goal of this repository is to practice algorithms, data structures, and problem-solving in preparation for a Junior Java Developer position.
+This repository is part of my ongoing preparation for a **Junior Java Developer** position and is used to practice algorithms, data structures, problem-solving, and Java programming.
 
-## 📚 Progress
+## 🎯 Goals
 
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1 | Merge Strings Alternately | 🟢 Easy | [Solution](src/leetcode/leetcode_75/array_string/p1768) |
-| 2 | Greatest Common Divisor of Strings | 🟢 Easy | [Solution](src/leetcode/leetcode_75/array_string/p1071) |
-| 3 | Kids With the Greatest Number of Candies | 🟢 Easy | [Solution](src/leetcode/leetcode_75/array_string/p1431) |
-| 4 | Can Place Flowers | 🟢 Easy | [Solution](src/leetcode/leetcode_75/array_string/p0605) |
+- Improve algorithmic thinking and problem-solving skills
+- Practice common data structures and algorithms
+- Strengthen Java fundamentals
+- Become more comfortable solving problems independently
+- Prepare for technical interviews and coding assessments
 
-## 🗂️ Structure
+## 📚 Study Plan
+
+The main focus of this repository is the [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/) study plan.
+
+The problems cover topics such as:
+
+- Arrays & Strings
+- Two Pointers
+- Sliding Window
+- Hash Maps & Sets
+- Stack
+- Linked Lists
+- Binary Trees
+- Binary Search
+- Graphs
+- Heap / Priority Queue
+- Dynamic Programming
+- and other common algorithmic patterns
+
+## 🗂️ Project Structure
+
+Solutions are organized by study plan topic and LeetCode problem number.
 
 ```text
 src/
 └── leetcode/
     └── leetcode_75/
-        └── array_string/
-            ├── p0605/
-            ├── p1071/
-            ├── p1431/
-            └── p1768/
+        ├── array_string/
+        │   ├── p0605/
+        │   ├── p1071/
+        │   ├── p1431/
+        │   └── ...
+        │
+        ├── two_pointers/
+        ├── sliding_window/
+        ├── hash_map_set/
+        ├── stack/
+        └── ...
