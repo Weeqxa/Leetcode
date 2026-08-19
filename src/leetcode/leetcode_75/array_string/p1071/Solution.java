@@ -26,7 +26,6 @@ public class Solution {
         StringBuilder str = new StringBuilder();
 
         for (int i = 0; i < gcd; i++) {
-
             if (str1.charAt(i) != str2.charAt(i)) {
                 return "";
             } else {
