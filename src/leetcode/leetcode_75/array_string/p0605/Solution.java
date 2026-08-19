@@ -5,7 +5,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.canPlaceFlowers(new int[]{0, 1, 0}, 1));
-
     }
 
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
