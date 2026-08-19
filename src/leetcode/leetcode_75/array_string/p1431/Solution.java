@@ -20,13 +20,13 @@ public class Solution {
 
         int countFalse = 0;
 
-        for (int i = 0; i < candies.length; i++) {
+        for (int candy : candies) {
 
-            int maxCandies = candies[i] + extraCandies;
+            int maxCandies = candy + extraCandies;
 
-            for (int j = 0; j < candies.length; j++) {
+            for (int i : candies) {
 
-                if (candies[j] > maxCandies) {
+                if (i > maxCandies) {
                     countFalse++;
                 }
             }
