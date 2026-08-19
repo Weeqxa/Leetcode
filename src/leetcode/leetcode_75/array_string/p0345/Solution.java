@@ -1,8 +1,6 @@
 package leetcode.leetcode_75.array_string.p0345;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Solution {
 
@@ -14,35 +12,36 @@ public class Solution {
 
     public String reverseVowels(String s) {
 
-        String[] parts = s.split("");
-        System.out.println(Arrays.toString(parts));
+        char[] chars = s.toCharArray();
 
-        List<String> vowels = new ArrayList<>();
+        System.out.printf("chars: %s\n", Arrays.toString(chars));
 
-        for (String part : parts) {
-            if (part.equals("a") || part.equals("e") || part.equals("i") || part.equals("o") || part.equals("u") || part.equals("A") || part.equals("E") || part.equals("I") || part.equals("O") || part.equals("U")) {
-                vowels.add(part);
+        int left = 0;
+        int right = chars.length - 1;
+
+        while (left < right) {
+
+            while (left < right && !isVowel(chars[left])) {
+                left++;
+            }
+
+            while (left < right && !isVowel(chars[right])) {
+                right--;
+            }
+
+            if (left < right) {
+                char temp = chars[left];
+                chars[left] = chars[right];
+                chars[right] = temp;
+                left++;
+                right--;
             }
         }
 
-        vowels = vowels.reversed();
-        System.out.println(vowels);
-
-        StringBuilder sb = new StringBuilder();
-
-        for (String word : parts) {
-
-            if (word.equals("a") || word.equals("e") || word.equals("i") || word.equals("o") || word.equals("u") || word.equals("A") || word.equals("E") || word.equals("I") || word.equals("O") || word.equals("U")) {
-
-                sb.append(vowels.getFirst());
-                vowels.removeFirst();
-            } else {
-                sb.append(word);
-            }
-
-        }
-
-        return sb.toString();
+        return new String(chars);
     }
 
+    public boolean isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+    }
 }
