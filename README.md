@@ -40,9 +40,14 @@ src/
 └── leetcode/
     └── leetcode_75/
         ├── array_string/
+        │   ├── p0345/
+        │   ├── p0443/
         │   ├── p0605/
         │   ├── p1071/
         │   ├── p1431/
+        │   ├── p151/
+        │   ├── p0176/
+        │   ├── p0238/
         │   └── ...
         │
         ├── two_pointers/
@@ -50,3 +55,34 @@ src/
         ├── hash_map_set/
         ├── stack/
         └── ...
+```
+
+## ✅ Progress
+
+### Array / String
+
+Completed the first **9 problems** from the Array / String section of the LeetCode 75 study plan:
+
+| # | Problem | Difficulty |
+|---|---|---|
+| 1 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy |
+| 2 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy |
+| 3 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy |
+| 4 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy |
+| 5 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy |
+| 6 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium |
+| 7 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium |
+| 8 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | Medium |
+| 9 | [String Compression](https://leetcode.com/problems/string-compression/) | Medium |
+
+> Progress is updated periodically as the study plan is completed.
+
+## 🛠️ Tech Stack
+
+- **Java**
+- **IntelliJ IDEA**
+- **Git / GitHub**
+
+## 📌 Notes
+
+The solutions are written primarily for learning and interview preparation. The focus is not only on getting accepted by LeetCode, but also on understanding the underlying algorithm, time and space complexity, and common problem-solving patterns.
